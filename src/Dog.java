@@ -1,13 +1,6 @@
 public class Dog {
 
-    public static void DogActions() {
-        Dog dog = new Dog("Белая", "Берта", 2, "Кавказская овчарка");
-        dog.bark();
-        dog.run();
-    }
-
     // Класс Собачка
-
         String color;
         String name;
         int age;
