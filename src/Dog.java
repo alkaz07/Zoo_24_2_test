@@ -1,4 +1,4 @@
-public class DogMain {
+public class Dog {
 
     public static void DogActions() {
         Dog dog = new Dog("Белая", "Берта", 2, "Кавказская овчарка");
@@ -7,7 +7,6 @@ public class DogMain {
     }
 
     // Класс Собачка
-
         String color;
         String name;
         int age;
