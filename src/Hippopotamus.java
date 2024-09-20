@@ -1,11 +1,25 @@
-class Hippopotamus{
-    public static String color(){
-        return "Серый";
+public class Hippopotamus {
+    String name;
+    String color;
+    int weight;
+    int age;
+
+    public Hippopotamus(String name, String color, int weight, int age) {
+        this.name = name;
+        this.color = color;
+        this.weight = weight;
+        this.age = age;
     }
-    public static String name(){
-        return "Бочка";
+
+    public void TopTop(){
+        System.out.println("убежал плавать");
     }
-    public static String age(){
-        return "7 лет";
+
+    public void SwimSwim(){
+        System.out.println("утонул :(");
+    }
+
+    public void Watermelon(){
+        System.out.println("Уничтожает арбузы");
     }
 }
