@@ -3,16 +3,14 @@ public class Main {
         Elephant hathi = new Elephant("Вася", 600, 2 );
         hathi.makeSound();
 
-        Hippopotamus hippopotamus = new Hippopotamus();
+       // Hippopotamus hippopotamus = new Hippopotamus();
         Dog dingo = new Dog("черный", "Петербург", 321, "");
         dingo.bark();
         Dragon dragon =new Dragon("демигоргон", 1568, "красный", true, "frost");
         dragon.drakaris();
         dragon.makeSound();
         dragon.move();
+        Bear medved   = new Bear ("Цвет", 99, 33);
 
-        Tiger tiger = new Tiger(10, "Bai", "siberian");
-        tiger.voice();
-        tiger.jump();
     }
 }
