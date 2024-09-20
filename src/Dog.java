@@ -1,20 +1,20 @@
 public class Dog {
 
     public static void DogActions() {
-        Dog dog = new Dog("Белая", "Берта", 2, "Кавказская овчарка");
+        Dog1 dog = new Dog1("Белая", "Берта", 2, "Кавказская овчарка");
         dog.bark();
         dog.run();
     }
 
     // Класс Собачка
-    static class Dog {
+    static class Dog1 {
         String color;
         String name;
         int age;
         String breed;
 
         // Конструктор
-        public Dog(String color, String name, int age, String breed) {
+        public Dog1(String color, String name, int age, String breed) {
             this.color = color;
             this.name = name;
             this.age = age;
