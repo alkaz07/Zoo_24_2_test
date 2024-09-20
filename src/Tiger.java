@@ -15,4 +15,10 @@ public class Tiger {
         this.name = name;
         this.breed = breed;
     }
+
+    public Tiger() {
+        this.age = 0;
+        this.name = "unnamed";
+        this.breed = "whoknows";
+    }
 }
