@@ -7,5 +7,9 @@ public class Main {
         dragon.drakaris();
         dragon.makeSound();
         dragon.move();
+
+        Tiger tiger = new Tiger(10, "Bai", "siberian");
+        tiger.voice();
+        tiger.jump();
     }
 }
