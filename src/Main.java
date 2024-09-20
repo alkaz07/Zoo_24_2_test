@@ -10,5 +10,7 @@ public class Main {
         dragon.drakaris();
         dragon.makeSound();
         dragon.move();
+        Bear medved   = new Bear ("Цвет", 99, 33);
+
     }
 }
