@@ -4,7 +4,7 @@ public class Main {
         hathi.makeSound();
 
         Hippopotamus hippopotamus = new Hippopotamus();
-        DogMain dingo = new DogMain("черный", "Петербург", 321, "");
+        Dog dingo = new Dog("черный", "Петербург", 321, "");
         dingo.bark();
         Dragon dragon =new Dragon("демигоргон", 1568, "красный", true, "frost");
         dragon.drakaris();
