@@ -1,5 +1,3 @@
-package org.example;
-
 public class TestHog {
     public static void main(String[] args) {
         System.out.println("Creating one instance of TestHog...");
