@@ -1,3 +1,9 @@
+public static void main(String[] args) {
+
+    Dog dog = new Dog("Белая", "Берта", 2, "Кавказская овчарка");
+    dog.bark();
+}
+
 // Класс Собачка
 static class Dog {
     String color;
