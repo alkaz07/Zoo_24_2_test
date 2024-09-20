@@ -1,8 +1,9 @@
 public class Dog {
-    public static void main(String[] args) {
 
+    public static void DogActions() {
         Dog dog = new Dog("Белая", "Берта", 2, "Кавказская овчарка");
         dog.bark();
+        dog.run();
     }
 
     // Класс Собачка
@@ -21,8 +22,8 @@ public class Dog {
         }
 
         // Метод гавкания
-        public void bark() {
-            System.out.println(name + " говорит: Гав!");
-        }
+        public void bark() {System.out.println(name + " говорит: Гав!");}
+        //Метод бегания
+        public void run() {System.out.println(name + " живо кружится вокруг доброго человека и приветствует, радостно виляя хвостиком");}
     }
 }
