@@ -18,4 +18,8 @@ public class Hippopotamus {
     public void SwimSwim(){
         System.out.println("утонул :(");
     }
+
+    public void Watermelon(){
+        System.out.println("Уничтожает арбузы");
+    }
 }
