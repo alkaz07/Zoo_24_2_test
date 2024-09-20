@@ -7,7 +7,7 @@ public class DogMain {
     }
 
     // Класс Собачка
-    static class Dog {
+
         String color;
         String name;
         int age;
@@ -25,5 +25,5 @@ public class DogMain {
         public void bark() {System.out.println(name + " говорит: Гав!");}
         //Метод бегания
         public void run() {System.out.println(name + " живо кружится вокруг доброго человека и приветствует, радостно виляя хвостиком");}
-    }
+
 }
