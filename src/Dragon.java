@@ -1,5 +1,5 @@
 // создан класс Дракон, by Tony
-public class Dragon {
+public class Dragon extends Animal{
 
         String majesticName;
         int age;

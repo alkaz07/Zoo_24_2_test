@@ -2,9 +2,9 @@
 //Нарвал(лат. Monodon monoceros), также морской единорог — млекопитающее семейства нарваловых,
 // единственный вид рода нарвалы.
 
-public class Narval {
+public class Narval extends Animal{
 
-    String name;
+    //String name;
     int age;
     int weight;
     int toothLength;
