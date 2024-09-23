@@ -1,5 +1,6 @@
-class Cat {
-    String color, name, breed;
+//created by balteyes
+class Cat extends Animal {
+    String color, breed;
     byte age, weight;
 
     public Cat(String color, String name, String breed, byte age, byte weight) {
@@ -23,4 +24,13 @@ class Cat {
         System.out.println("Feed me!");
     }
 
+    //2024-09-23 учу кота мурлыкать
+    public void frr() { System.out.println(this+" frrrr-frrrr");
+    }
+
+
+    @Override
+    public String toString() { return "Cat{" + "color='" + color + '\'' + ", name='" + name + '\'' + ", breed='" + breed + '\'' +
+                ", age=" + age + ", weight=" + weight +  '}';
+    }
 }

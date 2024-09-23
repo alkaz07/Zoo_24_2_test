@@ -1,6 +1,6 @@
-public class Crow {
+//Created by: Tumanov
+public class Crow extends Animal {
     private int age;
-    private String name;
     private boolean genderMale;
 
     public Crow(int age, String name, boolean genderMale) {
@@ -25,5 +25,14 @@ public class Crow {
 
     public void fly() {
         System.out.println("Whoosh");
+    }
+
+    public void eat() {
+        System.out.println("Eat cheese");
+    }
+
+    @Override
+    public String toString() {
+        return "Crow{" + "age=" + age + ", name='" + name + '\'' + ", genderMale=" + genderMale + '}';
     }
 }

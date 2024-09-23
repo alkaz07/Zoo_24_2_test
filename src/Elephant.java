@@ -1,7 +1,7 @@
 //created by alkaz07
 
-public class Elephant {
-    String name;
+public class Elephant extends Animal {
+    //String name;
     int weight;
     int age;
 
@@ -22,6 +22,6 @@ public class Elephant {
 
     @Override
     public String toString() {
-        return "Elephant{" +"name='" + name + '\'' +", weight=" + weight +", age=" + age +'}';
+        return "Elephant{" + name + '\'' +", вес=" + weight +", age=" + age +'}';
     }
 }
