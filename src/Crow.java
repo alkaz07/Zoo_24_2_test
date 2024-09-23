@@ -1,3 +1,4 @@
+//Created by: Tumanov
 public class Crow {
     private int age;
     private String name;
@@ -25,5 +26,14 @@ public class Crow {
 
     public void fly() {
         System.out.println("Whoosh");
+    }
+
+    public void eat() {
+        System.out.println("Eat cheese");
+    }
+
+    @Override
+    public String toString() {
+        return "Crow{" + "age=" + age + ", name='" + name + '\'' + ", genderMale=" + genderMale + '}';
     }
 }

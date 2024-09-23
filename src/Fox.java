@@ -7,6 +7,8 @@ public class Fox {
         }
     public static void main(String[] args) {
      Fox cunning = new Fox("Белая","Alisa",5,0);
+     cunning.makeSound();
+
     }
 
   public Fox(String color,String name,int age,int amountchildren){
@@ -14,6 +16,13 @@ public class Fox {
         this.name = name;
         this.age = age;
         this.amountchildren = amountchildren;
-
-  }
+    }
+    //учу лису прыгать
+    public void spring(){System.out.println(this+" Прыг скок");}
+    @Override
+    public String toString() {return "Fox{" + "name='" + name + '\'' + ", color='" + color + '\'' +
+                ", age=" + age +
+                ", amountchildren=" + amountchildren +
+                '}';
+    }
 }
