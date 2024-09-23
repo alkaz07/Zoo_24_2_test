@@ -1,3 +1,5 @@
+//created by balteyes
+
 public class Giraffe {
     private String name,breed;
     private int age, height, weight;
