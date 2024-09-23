@@ -6,7 +6,10 @@
     int weight;
     double length;
     String color;
-    public Platypus(String name, int age, int weight, double length, String color) {
+
+
+
+        public Platypus(String name, int age, int weight, double length, String color) {
         this.name = name;
         this.age = age;
         this.weight = weight;
@@ -30,4 +33,15 @@
 
         public void takeSomeFood(){
             System.out.println(" утконос роет ил и кушает червячков ");}
+
+        @Override
+        public String toString() {
+            return "Platypus{" +
+                    "name='" + name + '\'' +
+                    ", age=" + age +
+                    ", weight=" + weight +
+                    ", length=" + length +
+                    ", color='" + color + '\'' +
+                    '}';
+        }
 }

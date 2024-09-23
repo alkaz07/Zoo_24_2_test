@@ -9,6 +9,9 @@ public class Narval {
     int weight;
     int toothLength;
     String color;
+
+
+
     public Narval(String name, int age, int weight, int toothLength, String color) {
         this.name = name;
         this.age = age;
@@ -38,4 +41,14 @@ public class Narval {
     public void takeSomeFood(){
         System.out.println(" нарвал добывает рыбку ");}
 
+    @Override
+    public String toString() {
+        return "Narval{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", weight=" + weight +
+                ", toothLength=" + toothLength +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }
