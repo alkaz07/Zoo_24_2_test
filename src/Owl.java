@@ -1,8 +1,8 @@
 public class Owl extends Animal {
-    String name;
+    //String name;
     int weight;
     int age;
     public void makeSound() {
-        System.out.println("Игого");
+        System.out.println("Угу");
     }
 }
