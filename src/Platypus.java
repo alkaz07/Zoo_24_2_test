@@ -1,4 +1,4 @@
-// создан класс Нарвал, by Tony
+// создан класс Утконос, by Tony
 
     public class Platypus extends Animal{
     //String name;
