@@ -1,7 +1,7 @@
 //Created by: Tumanov
-public class Tiger {
+public class Tiger extends Animal {
     private int age;
-    private String name, breed;
+    private String breed;
 
     public Tiger(int age, String name, String breed) {
         this.age = age;

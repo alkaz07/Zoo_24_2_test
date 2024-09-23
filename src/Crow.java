@@ -1,7 +1,6 @@
 //Created by: Tumanov
-public class Crow {
+public class Crow extends Animal {
     private int age;
-    private String name;
     private boolean genderMale;
 
     public Crow(int age, String name, boolean genderMale) {
