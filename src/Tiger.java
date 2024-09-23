@@ -1,6 +1,6 @@
 public class Tiger {
-    int age;
-    String name, breed;
+    private int age;
+    private String name, breed;
 
     public void voice() {
         System.out.println("R-r-r-r-r-r");

@@ -1,29 +1,26 @@
 public class Dog {
 
-    public static void DogActions() {
-        Dog dog = new Dog("Белая", "Берта", 2, "Кавказская овчарка");
-        dog.bark();
-        dog.run();
+    // Класс Собачка
+    String color, name, breed;
+    int age, weight;
+
+    // Конструктор
+    public Dog(String color, String name, String breed, int age, int weight) {
+        this.color = color;
+        this.name = name;
+        this.age = age;
+        this.breed = breed;
+        this.weight = weight;
     }
 
-    // Класс Собачка
+    // Метод гавкания
+    public void voice() {
+        System.out.println(name + " Кто там?!");
+    }
 
-        String color;
-        String name;
-        int age;
-        String breed;
-
-        // Конструктор
-        public Dog(String color, String name, int age, String breed) {
-            this.color = color;
-            this.name = name;
-            this.age = age;
-            this.breed = breed;
-        }
-
-        // Метод гавкания
-        public void bark() {System.out.println(name + " говорит: Гав!");}
-        //Метод бегания
-        public void run() {System.out.println(name + " живо кружится вокруг доброго человека и приветствует, радостно виляя хвостиком");}
+    //Метод бегания
+    public void moving() {
+        System.out.println(name + " живо кружится вокруг доброго человека и приветствует, радостно виляя хвостиком");
+    }
 
 }
