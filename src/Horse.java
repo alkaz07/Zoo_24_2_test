@@ -1,5 +1,5 @@
 public class Horse extends Animal {
-    String name;
+    //String name;
     int weight;
     int age;
     public void makeSound() {

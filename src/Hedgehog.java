@@ -1,8 +1,8 @@
 public class Hedgehog extends Animal {
-    String name;
+    //String name;
     int weight;
     int age;
     public void makeSound() {
-        System.out.println("Игого");
+        System.out.println("Prrr");
     }
 }
