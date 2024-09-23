@@ -1,7 +1,7 @@
-public class Fish {
+public class Fish  extends Animal {
 
     // Класс Золотая рыбка
-    String type, name;
+    String type/*, name*/;
     int age, weight;
 
     // Конструктор

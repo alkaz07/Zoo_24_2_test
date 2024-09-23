@@ -1,7 +1,7 @@
-public class Dog {
+public class Dog extends Animal {
 
     // Класс Собачка
-    String color, name, breed;
+    String color, /*name, */breed;
     int age, weight;
 
     // Конструктор
