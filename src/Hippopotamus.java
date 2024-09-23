@@ -11,15 +11,14 @@ public class Hippopotamus {
         this.age = age;
     }
 
-    public void TopTop(){
-        System.out.println("убежал плавать");
+    public void topTop(){
+        System.out.println("Run away to swim");
     }
 
-    public void SwimSwim(){
-        System.out.println("утонул :(");
+    public void swimSwim(){System.out.println("Under the water");
     }
 
-    public void Watermelon(){
-        System.out.println("Уничтожает арбузы");
+    public void watermelon(){
+        System.out.println("Destroys watermelons");
     }
 }
