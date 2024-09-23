@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
         Elephant hathi = new Elephant("Вася", 600, 2 );
         hathi.makeSound();
+        hathi.top();
 
        // Hippopotamus hippopotamus = new Hippopotamus();
         Dog dingo = new Dog("черный", "Петербург", "", 321, 80);

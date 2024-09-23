@@ -1,3 +1,5 @@
+//created by alkaz07
+
 public class Elephant {
     String name;
     int weight;
@@ -11,5 +13,15 @@ public class Elephant {
 
     public void makeSound(){
         System.out.println("Труууууу");
+    }
+
+    //2024-09-23 alkaz07: учу слона топать
+    public void top(){
+        System.out.println(this+" топ-топ");
+    }
+
+    @Override
+    public String toString() {
+        return "Elephant{" +"name='" + name + '\'' +", weight=" + weight +", age=" + age +'}';
     }
 }
