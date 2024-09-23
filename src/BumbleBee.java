@@ -1,7 +1,7 @@
-public class BumbleBee {
+public class BumbleBee  extends Animal {
 
     // Класс Шмель
-    String type, name;
+    String type/*, name*/;
     int age, weight;
 
     // Конструктор
