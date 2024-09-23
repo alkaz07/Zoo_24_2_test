@@ -1,4 +1,4 @@
-public class Bear {
+public class Bear extends Animal {
     String color; // цвет
     int weight; //вес
     int height; // высота

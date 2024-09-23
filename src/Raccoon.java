@@ -1,4 +1,4 @@
-public class Raccoon {
+public class Raccoon extends Animal {
     String color; // цвет
     int weight; //вес
     int height; // высота
@@ -11,7 +11,6 @@ public class Raccoon {
 
 
     }
-<<<<<<< HEAD
 
 
     //2024-09-23 : учу енота петь
