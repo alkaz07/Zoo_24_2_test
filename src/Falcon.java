@@ -1,5 +1,5 @@
-public class Falcon {
-    String name;
+public class Falcon extends Animal{
+    //String name;
     String color;
     int weight;
     int age;

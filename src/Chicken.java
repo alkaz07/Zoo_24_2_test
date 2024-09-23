@@ -1,5 +1,6 @@
-public class Chicken {
-    private String name, color;
+//created by balteyes
+public class Chicken extends Animal{
+    private String color;
     private byte age, weight;
 
     public void sing() {
@@ -13,5 +14,12 @@ public class Chicken {
         this.color = color;
         this.age = age;
         this.weight = weight;
+    }
+    //2024-09-23 учу птенца бегать
+    public void run(){System.out.println(this +"run-run");    }
+
+
+    public String toString() {
+        return "Chicken{" + "name='" + name + '\'' + ", color='" + color + '\'' + ", age=" + age + ", weight=" + weight +'}';
     }
 }
