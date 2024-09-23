@@ -28,6 +28,10 @@ public class Crow {
         System.out.println("Whoosh");
     }
 
+    public void eat() {
+        System.out.println("Eat cheese");
+    }
+
     @Override
     public String toString() {
         return "Crow{" + "age=" + age + ", name='" + name + '\'' + ", genderMale=" + genderMale + '}';

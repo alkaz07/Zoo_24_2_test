@@ -25,6 +25,10 @@ public class Cow {
         System.out.println("Thud-thud-thud");
     }
 
+     public void eat() {
+         System.out.println("Munch a bunch of grass");
+     }
+
     @Override
     public String toString() {
         return "Cow{" + "age=" + age + ", weight=" + weight + ", name='" + name + '\'' + ", color='" + color + '\'' + '}';
