@@ -1,3 +1,4 @@
+//Created by: Tumanov
 public class Tiger {
     private int age;
     private String name, breed;
@@ -20,5 +21,10 @@ public class Tiger {
         this.age = 0;
         this.name = "unnamed";
         this.breed = "whoknows";
+    }
+
+    @Override
+    public String toString() {
+        return "Tiger{" + "age=" + age + ", name='" + name + '\'' + ", breed='" + breed + '\'' + '}';
     }
 }
