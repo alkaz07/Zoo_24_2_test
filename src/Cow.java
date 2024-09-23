@@ -1,7 +1,7 @@
 //Created by: Tumanov
-public class Cow {
+public class Cow extends Animal {
     private int age, weight;
-    private String name, color;
+    private String color;
 
     public Cow(int age, int weight, String name, String color) {
         this.age = age;
