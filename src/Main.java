@@ -34,6 +34,13 @@ public class Main {
             else System.out.println("это не слон");
         }
 
+        Animal[] animals = new Animal[objects.length];
+        for (int i=0; i< animals.length; i++)
+            animals[i] = (Animal)objects[i];
+
+        System.out.println("имена животных:");
+        for (Animal a: animals)
+            System.out.println(a.name);
     }
 
 
