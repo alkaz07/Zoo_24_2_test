@@ -11,6 +11,7 @@ public class Raccoon {
 
 
     }
+<<<<<<< HEAD
 
 
     //2024-09-23 : учу енота петь
@@ -22,4 +23,5 @@ public class Raccoon {
     public String toString() {
         return "Raccoon{" +"color='" + color + '\'' +", weight=" + weight +", height=" + height +'}';
     }
+
 }

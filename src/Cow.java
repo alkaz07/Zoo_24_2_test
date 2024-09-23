@@ -1,6 +1,7 @@
+//Created by: Tumanov
 public class Cow {
-    int age, weight;
-    String name, color;
+    private int age, weight;
+    private String name, color;
 
     public Cow(int age, int weight, String name, String color) {
         this.age = age;
@@ -22,5 +23,14 @@ public class Cow {
 
     public void run() {
         System.out.println("Thud-thud-thud");
+    }
+
+     public void eat() {
+         System.out.println("Munch a bunch of grass");
+     }
+
+    @Override
+    public String toString() {
+        return "Cow{" + "age=" + age + ", weight=" + weight + ", name='" + name + '\'' + ", color='" + color + '\'' + '}';
     }
 }
