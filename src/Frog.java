@@ -1,5 +1,5 @@
-public class Frog {
-    String name;
+public class Frog extends Animal{
+    //String name;
     String color;
     int weight;
     int age;

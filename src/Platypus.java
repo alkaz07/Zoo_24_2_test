@@ -1,7 +1,7 @@
 // создан класс Нарвал, by Tony
 
-    public class Platypus {
-    String name;
+    public class Platypus extends Animal{
+    //String name;
     int age;
     int weight;
     double length;

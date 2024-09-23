@@ -1,3 +1,5 @@
+//created by balteyes
+
 public class Shark {
     private String name, breed;
     private int age, length, weight, numOfTeeth;

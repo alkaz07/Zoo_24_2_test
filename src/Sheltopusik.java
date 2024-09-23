@@ -1,3 +1,5 @@
+//created by balteyes
+
 public class Sheltopusik {
     private String color, name;
     private int length;
