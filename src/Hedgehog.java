@@ -1,4 +1,4 @@
-public class Horse extends Animal {
+public class Hedgehog extends Animal {
     String name;
     int weight;
     int age;

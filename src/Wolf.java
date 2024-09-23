@@ -1,4 +1,4 @@
-public class Wolf {
+public class Wolf extends Animal {
     String color; // цвет
     int weight; //вес
     int height; // высота

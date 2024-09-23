@@ -1,7 +1,7 @@
 //created by balteyes
 
-public class Sheltopusik {
-    private String color, name;
+public class Sheltopusik extends Animal {
+    private String color;
     private int length;
     private int weight;
     private int age;

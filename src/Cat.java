@@ -1,6 +1,6 @@
 //created by balteyes
-class Cat {
-    String color, name, breed;
+class Cat extends Animal {
+    String color, breed;
     byte age, weight;
 
     public Cat(String color, String name, String breed, byte age, byte weight) {
