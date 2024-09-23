@@ -1,5 +1,5 @@
-public class Fox {
-    String name,color;
+public class Fox  extends Animal {
+    String color;
     int age;
     int amountchildren;
     public  void makeSound(){
