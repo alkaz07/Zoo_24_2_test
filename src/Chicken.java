@@ -1,6 +1,6 @@
 //created by balteyes
-public class Chicken {
-    private String name, color;
+public class Chicken extends Animal{
+    private String color;
     private byte age, weight;
 
     public void sing() {

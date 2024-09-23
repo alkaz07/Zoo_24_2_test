@@ -1,7 +1,7 @@
 //created by balteyes
 
-public class Sparrow {
-    private String name, color;
+public class Sparrow extends Animal{
+    private String color;
     private float weight;
     private float length;
 
