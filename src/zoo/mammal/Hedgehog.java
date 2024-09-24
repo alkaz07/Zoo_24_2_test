@@ -1,4 +1,6 @@
-package zoo;
+package zoo.mammal;
+
+import zoo.Animal;
 
 public class Hedgehog extends Animal {
     //String name;
