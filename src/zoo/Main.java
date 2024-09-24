@@ -1,9 +1,9 @@
 package zoo;
 
-import zoo.mammal.Bear;
-import zoo.mammal.Dog;
-import zoo.mammal.Elephant;
-import zoo.mammal.Fox;
+import zoo.mammals.Bear;
+import zoo.mammals.Dog;
+import zoo.mammals.Elephant;
+import zoo.mammals.Fox;
 import zoo.myth.Dragon;
 
 import java.util.Arrays;

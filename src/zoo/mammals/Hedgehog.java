@@ -1,5 +1,5 @@
 //created by OrlovAG
-package zoo.mammal;
+package zoo.mammals;
 
 public class Hedgehog extends Mammal {
     //String name;

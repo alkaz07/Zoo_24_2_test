@@ -1,5 +1,5 @@
 //created by OrlovAG
-package zoo.mammal;
+package zoo.mammals;
 
 public class Horse extends Mammal {
     //String name;

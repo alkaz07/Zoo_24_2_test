@@ -1,4 +1,4 @@
-package zoo.mammal;
+package zoo.mammals;
 
 public class Hog extends Mammal {
     public static void main(String[] args) {
