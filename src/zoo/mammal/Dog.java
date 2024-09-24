@@ -17,8 +17,6 @@ public class Dog extends Mammal {
 
     }
 
-
-
     // Метод гавкания
     public void voice() {
         System.out.println(name + " Кто там?!");
