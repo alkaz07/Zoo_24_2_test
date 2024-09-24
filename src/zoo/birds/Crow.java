@@ -1,17 +1,19 @@
-package zoo;
+package zoo.birds;
 
 //Created by: Tumanov
-public class Crow extends Animal {
+public class Crow extends Bird {
     private int age;
     private boolean genderMale;
 
     public Crow(int age, String name, boolean genderMale) {
+        super(0.5);
         this.age = age;
         this.name = name;
         this.genderMale = genderMale;
     }
 
     public Crow() {
+        super(0.5);
         this.age = 0;
         this.name = "Bar";
         this.genderMale = true;
