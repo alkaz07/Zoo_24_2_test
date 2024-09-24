@@ -1,6 +1,6 @@
-package zoo;
+package zoo.mammal;
 
-public class Fox  extends Animal {
+public class Fox  extends Mammal {
     String color;
     int age;
     int amountchildren;
@@ -14,7 +14,8 @@ public class Fox  extends Animal {
     }
 
   public Fox(String color,String name,int age,int amountchildren){
-        this.color = color;
+      super(50);
+      this.color = color;
         this.name = name;
         this.age = age;
         this.amountchildren = amountchildren;

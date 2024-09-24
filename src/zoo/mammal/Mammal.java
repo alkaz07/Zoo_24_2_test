@@ -8,7 +8,8 @@ abstract public class Mammal extends Animal {
     public Mammal(double tailLenght) {
         this.tailLenght = tailLenght;
     }
-
+/*
     protected Mammal() {
-    }
+        tailLenght=0;
+    }*/
 }
