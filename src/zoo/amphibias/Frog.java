@@ -1,6 +1,10 @@
-package zoo;
+// created by MarockoB
 
-public class Frog extends Animal{
+package zoo.amphibias;
+
+import zoo.Animal;
+
+public class Frog extends Amphibia {
     //String name;
     String color;
     int weight;
