@@ -29,6 +29,7 @@ public class Hog extends Mammal {
     }
 
     Hog() {
+        super(0);
         age = 1;
         hair = true;
         serialNumber = null;
