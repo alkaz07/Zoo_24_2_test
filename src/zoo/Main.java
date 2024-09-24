@@ -4,6 +4,7 @@ import zoo.mammal.Bear;
 import zoo.mammal.Dog;
 import zoo.mammal.Elephant;
 import zoo.mammal.Fox;
+import zoo.mammal.Wolf;
 import zoo.myth.Dragon;
 
 import java.util.Arrays;
