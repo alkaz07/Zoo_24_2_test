@@ -1,17 +1,19 @@
-package zoo;
+package zoo.mammal;
 
 //Created by: Tumanov
-public class Tiger extends Animal {
+public class Tiger extends Mammal {
     private int age;
     private String breed;
 
     public Tiger(int age, String name, String breed) {
+        super(1);
         this.age = age;
         this.name = name;
         this.breed = breed;
     }
 
     public Tiger() {
+        super(1);
         this.age = 0;
         this.name = "unnamed";
         this.breed = "whoknows";

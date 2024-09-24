@@ -1,11 +1,12 @@
-package zoo;
+package zoo.mammal;
 
 //Created by: Tumanov
-public class Cow extends Animal {
+public class Cow extends Mammal {
     private int age, weight;
     private String color;
 
     public Cow(int age, int weight, String name, String color) {
+        super(0.5);
         this.age = age;
         this.weight = weight;
         this.name = name;
@@ -13,6 +14,7 @@ public class Cow extends Animal {
     }
 
     public Cow() {
+        super(0.5);
         this.age = 0;
         this.weight = 50;
         this.name = "Mooy";
