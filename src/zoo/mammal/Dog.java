@@ -8,6 +8,7 @@ public class Dog extends Mammal {
 
     // Конструктор
     public Dog(String color, String name, String breed, int age, int weight) {
+        super(5);
         this.color = color;
         this.name = name;
         this.age = age;

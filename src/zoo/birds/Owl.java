@@ -1,4 +1,6 @@
-package zoo;
+package zoo.birds;
+
+import zoo.Animal;
 
 public class Owl extends Animal {
     //String name;
