@@ -6,7 +6,7 @@ public class Hog extends Mammal {
         Hog test1 = new Hog();
 
         test1.doSay("Hear ye, hear ye! Gather 'round and heed my words of ancient wisdom...");
-        System.out.println("tail length: " + test1.tailLenght);
+        System.out.println("tail length: " + test1.tailLength);
     }
 
     int x;
