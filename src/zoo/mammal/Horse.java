@@ -7,7 +7,7 @@ public class Horse extends Mammal {
     int age;
 
     public Horse(String name, int weight, int age) {
-        super(0);
+        super(60);
         this.name = name;
         this.weight = weight;
         this.age = age;

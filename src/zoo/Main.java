@@ -1,6 +1,9 @@
 package zoo;
 
+import zoo.mammal.Bear;
+import zoo.mammal.Dog;
 import zoo.mammal.Elephant;
+import zoo.mammal.Fox;
 
 import java.util.Arrays;
 
@@ -54,7 +57,7 @@ public class Main {
         hathi.top();
 
         // zoo.Hippopotamus hippopotamus = new zoo.Hippopotamus();
-        Dog dingo = new Dog("черный", "Петербург", "", 321, 80);
+        Dog dingo = new Dog("черный", "Петербург", "", 321, 80, 10);
         dingo.voice();
         Dragon dragon = new Dragon("демигоргон", 1568, "красный", true, "frost");
         dragon.drakaris();

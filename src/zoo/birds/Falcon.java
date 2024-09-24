@@ -1,12 +1,15 @@
-package zoo;
+package zoo.birds;
 
-public class Falcon extends Animal{
+import zoo.Animal;
+
+public class Falcon extends Bird {
     //String name;
     String color;
     int weight;
     int age;
 
-    public Falcon(String name, String color, int weight, int age) {
+    public Falcon(String name, String color, int weight, int age, double wingSize) {
+        super(wingSize);
         this.name = name;
         this.color = color;
         this.weight = weight;
