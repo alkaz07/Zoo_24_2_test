@@ -1,6 +1,6 @@
-package zoo;
+package zoo.mammal;
 
-public class Dog extends Animal {
+public class Dog extends Mammal {
 
     // Класс Собачка
     String color, /*name, */breed;

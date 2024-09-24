@@ -1,6 +1,6 @@
-package zoo;
+package zoo.mammal;
 
-public class Bear extends Animal {
+public class Bear extends Mammal {
     String color; // цвет
     int weight; //вес
     int height; // высота
