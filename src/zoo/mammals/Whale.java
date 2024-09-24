@@ -1,4 +1,4 @@
-package zoo.mammal;
+package zoo.mammals;
 
 public class Whale extends Mammal {
     String imya;
