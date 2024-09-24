@@ -1,5 +1,5 @@
 //created by OrlovAG
-package zoo.mammal;
+package zoo.mammals;
 
 public class Hedgehog extends Mammal {
     //String name;
@@ -13,8 +13,8 @@ public class Hedgehog extends Mammal {
         this.age = age;
     }
 
-    public Hedgehog(String name, int weight, int age, double tailLen) {
-        super(tailLen);
+    public Hedgehog(String name, int weight, int age, double needleLength) {
+        super(needleLength);
         this.name = name;
         this.weight = weight;
         this.age = age;

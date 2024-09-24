@@ -1,4 +1,4 @@
-package zoo.mammal;
+package zoo.mammals;
 
 public class Fox  extends Mammal {
     String color;

@@ -1,22 +1,22 @@
-import zoo.mammal.Mammal;
+
 
 //created by OrlovAG
 package zoo.birds;
 
-public class Owl extends birds {
+public class Owl extends Bird {
     //String name;
     int weight;
     int age;
 
     public Owl(String name, int weight, int age) {
-        super(0);
+        super(70);
         this.name = name;
         this.weight = weight;
         this.age = age;
     }
 
-    public Owl(String name, int weight, int age, double tailLen) {
-        super(tailLen);
+    public Owl(String name, int weight, int age, double wingSize) {
+        super(wingSize);
         this.name = name;
         this.weight = weight;
         this.age = age;
