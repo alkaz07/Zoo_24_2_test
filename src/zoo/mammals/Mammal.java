@@ -3,13 +3,13 @@ package zoo.mammals;
 import zoo.Animal;
 
 abstract public class Mammal extends Animal {
-    protected double tailLenght;
+    protected double tailLength;
 
-    public Mammal(double tailLenght) {
-        this.tailLenght = tailLenght;
+    public Mammal(double tailLength) {
+        this.tailLength = tailLength;
     }
 /*
     protected Mammal() {
-        tailLenght=0;
+        tailLength=0;
     }*/
 }
