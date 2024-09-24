@@ -1,13 +1,15 @@
-package zoo;
+package zoo.amphibias;
 
-public class Fish  extends Animal {
+import zoo.Animal;
+
+public class GoldenFish extends Animal {
 
     // Класс Золотая рыбка
     String type/*, name*/;
     int age, weight;
 
     // Конструктор
-    public Fish(String type, String name, int age, int weight) {
+    public GoldenFish(String type, String name, int age, int weight) {
         this.type = type;
         this.name = name;
         this.age = age;
