@@ -7,14 +7,17 @@ public class Dog extends Mammal {
     int age, weight;
 
     // Конструктор
-    public Dog(String color, String name, String breed, int age, int weight) {
-        super(5);
+    public Dog(String color, String name, String breed, int age, int weight, double tailLength) {
+        super(tailLength);
         this.color = color;
         this.name = name;
         this.age = age;
         this.breed = breed;
         this.weight = weight;
+
     }
+
+
 
     // Метод гавкания
     public void voice() {
