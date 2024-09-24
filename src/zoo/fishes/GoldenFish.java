@@ -1,8 +1,6 @@
-package zoo.amphibias;
+package zoo.fishes;
 
-import zoo.Animal;
-
-public class GoldenFish extends Animal {
+public class GoldenFish extends Fish {
 
     // Класс Золотая рыбка
     String type/*, name*/;
