@@ -9,7 +9,8 @@ public class GoldenFish extends Animal {
     int age, weight;
 
     // Конструктор
-    public GoldenFish(String type, String name, int age, int weight) {
+    public GoldenFish(String type, String name, int age, int weight, String typeOfWater) {
+        super(typeOfWater);
         this.type = type;
         this.name = name;
         this.age = age;
