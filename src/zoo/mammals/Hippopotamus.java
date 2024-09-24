@@ -1,12 +1,13 @@
-package zoo;
+package zoo.mammals;
 
-public class Hippopotamus extends Animal{
+public class Hippopotamus extends Mammal {
     //String name;
     String color;
     int weight;
     int age;
 
-    public Hippopotamus(String name, String color, int weight, int age) {
+    public Hippopotamus(String name, String color, int weight, int age, double tailLen) {
+        super(tailLen);
         this.name = name;
         this.color = color;
         this.weight = weight;
@@ -31,6 +32,6 @@ public class Hippopotamus extends Animal{
 
     @Override
     public String toString() {
-        return "zoo.Hippopotamus (" + "Имя " + name + '\'' + ", Цвет " + color + ", Вес " + weight + ", Возраст "+ age +')';
+        return "zoo.mammal.Hippopotamus (" + "Имя " + name + '\'' + ", Цвет " + color + ", Вес " + weight + ", Возраст "+ age +')';
     }
 }

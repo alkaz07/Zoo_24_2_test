@@ -1,4 +1,4 @@
-package zoo.mammal;
+package zoo.mammals;
 
 public class Dog extends Mammal {
 
@@ -16,8 +16,6 @@ public class Dog extends Mammal {
         this.weight = weight;
 
     }
-
-
 
     // Метод гавкания
     public void voice() {

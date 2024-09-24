@@ -1,4 +1,4 @@
-package zoo.mammal;
+package zoo.mammals;
 
 //Created by: Tumanov
 public class Cow extends Mammal {

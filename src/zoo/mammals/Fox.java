@@ -1,6 +1,4 @@
-package zoo;
-
-import zoo.mammal.Mammal;
+package zoo.mammals;
 
 public class Fox  extends Mammal {
     String color;

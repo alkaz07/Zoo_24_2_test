@@ -1,13 +1,12 @@
-package zoo.mammal;
+package zoo.mammals;
 
-import zoo.Animal;
-
-public class TestHog extends Animal {
+public class Hog extends Mammal {
     public static void main(String[] args) {
         System.out.println("Creating one instance of zoo.mammal.TestHog...");
-        TestHog test1 = new TestHog();
+        Hog test1 = new Hog();
 
         test1.doSay("Hear ye, hear ye! Gather 'round and heed my words of ancient wisdom...");
+        System.out.println("tail length: " + test1.tailLenght);
     }
 
     int x;
@@ -17,7 +16,8 @@ public class TestHog extends Animal {
     String serialNumber;
     static int hogCount;
 
-    TestHog(int x, int y) {
+    Hog(int x, int y) {
+        super(0);
         age = 1;
         hair = true;
         serialNumber = String.valueOf(hogCount);
@@ -28,7 +28,8 @@ public class TestHog extends Animal {
         hogCount++;
     }
 
-    TestHog() {
+    Hog() {
+        super(0);
         age = 1;
         hair = true;
         serialNumber = null;
@@ -45,7 +46,7 @@ public class TestHog extends Animal {
             hair = false;
             return 1;
         }
-            return -1;
+        return -1;
     }
 
     public void doSay(String voice) {
@@ -53,7 +54,7 @@ public class TestHog extends Animal {
     }
 
     public void doDig(int strength, Object target) {
-        if (strength>20) doSay("*grunt*");
+        if (strength > 20) doSay("*grunt*");
         //
     }
 }

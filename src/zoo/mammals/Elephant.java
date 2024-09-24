@@ -1,5 +1,5 @@
 //created by alkaz07
-package zoo.mammal;
+package zoo.mammals;
 
 public class Elephant extends Mammal {
     //String name;

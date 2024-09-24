@@ -1,7 +1,9 @@
-package zoo;
+package zoo.myth;
+
+import zoo.Animal;
 
 // создан класс Дракон, by Tony
-public class Dragon extends Animal{
+public class Dragon extends Animal {
 
         String majesticName;
         int age;
@@ -25,7 +27,7 @@ public class Dragon extends Animal{
 
         // я не учил дракона летать - он умел это сам
         public void move(){
-        System.out.println(" zoo.Dragon fly to the sky ");}
+        System.out.println(" zoo.myth.Dragon fly to the sky ");}
 
     // научил дракона издавать звук
         public void makeSound(){
@@ -36,7 +38,7 @@ public class Dragon extends Animal{
 
     @Override
     public String toString() {
-        return "zoo.Dragon{" +
+        return "zoo.myth.Dragon{" +
                 "majesticName='" + majesticName + '\'' +
                 ", age=" + age +
                 ", color='" + color + '\'' +
