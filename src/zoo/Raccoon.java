@@ -17,7 +17,7 @@ public class Raccoon extends Animal {
 
     //2024-09-23 : учу енота петь
     public void top(){
-        System.out.println(this+" ля-ля");
+        System.out.println(this+" тру-тру");
     }
 
     @Override
