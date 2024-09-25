@@ -1,6 +1,8 @@
 package zoo.mammals;
 
-public class Whale extends Mammal {
+import zoo.IDiver;
+
+public class Whale extends Mammal implements IDiver {
     String imya;
     int ves;
     int age;
@@ -10,5 +12,10 @@ public class Whale extends Mammal {
         this.imya = imya;
         this.ves = ves;
         this.age = age;
+    }
+
+    @Override
+    public void dive() {
+        System.out.println("Кит задерживает дыхание и глубоко ныряет");
     }
 }

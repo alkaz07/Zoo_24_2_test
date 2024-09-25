@@ -1,7 +1,9 @@
 package zoo.birds;
 
+import zoo.IFlyer;
+
 //Created by: Tumanov
-public class Crow extends Bird {
+public class Crow extends Bird implements IFlyer {
     private int age;
     private boolean genderMale;
 
@@ -27,8 +29,18 @@ public class Crow extends Bird {
         System.out.println("Caw-caw");
     }
 
+    @Override
+    public void takeoff() {
+        System.out.println("ворона взлетает с места");
+    }
+
     public void fly() {
         System.out.println("Whoosh");
+    }
+
+    @Override
+    public void land() {
+        System.out.println("ворона изящно садится");
     }
 
     public void eat() {

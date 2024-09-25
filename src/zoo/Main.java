@@ -1,5 +1,6 @@
 package zoo;
 
+import zoo.birds.Duck;
 import zoo.mammals.Bear;
 import zoo.mammals.Dog;
 import zoo.mammals.Elephant;
@@ -10,7 +11,14 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        example1();
+        exampleDuck();
+    }
+
+    private static void exampleDuck() {
+        Duck duck = new Duck("Скрудж", 0.4, "белый");
+        duck.walk();
+        duck.dive();
+
     }
 
     public static void example1() {

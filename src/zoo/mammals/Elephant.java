@@ -1,7 +1,9 @@
 //created by alkaz07
 package zoo.mammals;
 
-public class Elephant extends Mammal {
+import zoo.IWalker;
+
+public class Elephant extends Mammal implements IWalker {
     //String name;
     int weight;
     int age;
@@ -31,5 +33,11 @@ public class Elephant extends Mammal {
     @Override
     public String toString() {
         return "Elephant{" + name + '\'' +", вес=" + weight +", age=" + age +'}';
+    }
+
+    @Override
+    public void walk() {
+        System.out.println("я иду");
+        top();
     }
 }
